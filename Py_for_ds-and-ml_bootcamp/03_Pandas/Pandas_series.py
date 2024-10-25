@@ -1,7 +1,7 @@
 # Examples from section 5 of the Python for DS and ML Bootcamp on Udemy
 import numpy as np
 import pandas as pd
-# Pandas is built off of numpy
+# 03_Pandas is built off of numpy
 
 labels = ["a", "b", "c"]
 my_data = [10, 20, 30]
