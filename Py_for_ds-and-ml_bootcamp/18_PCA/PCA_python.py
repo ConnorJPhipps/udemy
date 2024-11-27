@@ -18,7 +18,7 @@ scaler = StandardScaler()
 scaler.fit(df)
 scaled_data = scaler.transform(df)
 
-# PCA (you have to determine the number of components to keep)
+# 18_PCA (you have to determine the number of components to keep)
 pca = PCA(n_components=2)
 pca.fit(scaled_data)
 x_pca = pca.transform(scaled_data)
